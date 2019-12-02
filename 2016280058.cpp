@@ -8,10 +8,10 @@ public:
     romanTipi(string s);
     ~romanTipi();
 
-        void RomanYap(string); //Girdi alıyoruz
-        int RomandanSayiya(); //Roma rakamından sayıya dönüştürme
-        void printDecimal(); //Decimal sayıyı yazdıracak.
-        void RomanYazdir(); //Roma rakamını yazdrııyor.
+        void RomanYap(string); //Girdi alÄ±yoruz
+        int RomandanSayiya(); //Roma rakamÄ±ndan sayÄ±ya dÃ¶nÃ¼ÅŸtÃ¼rme
+        void printDecimal(); //Decimal sayÄ±yÄ± yazdÄ±racak.
+        void RomanYazdir(); //Roma rakamÄ±nÄ± yazdrÄ±Ä±yor.
 private:
     string RomanSayi;
     int DecimalSayi = 0;
@@ -32,7 +32,7 @@ void romanTipi::RomanYap(string troll)
     RomanSayi = troll;
 }
 
-int romanTipi::RomandanSayiya()  //if li işlemler
+int romanTipi::RomandanSayiya()  //if li iÅŸlemler
 {
     for (int i = 0; i < RomanSayi.length(); i++)
     {
@@ -81,7 +81,7 @@ int romanTipi::RomandanSayiya()  //if li işlemler
 }
    
      
-     // Roma rakamlarını yazdıran kısım
+     // Roma rakamlarÄ±nÄ± yazdÄ±ran kÄ±sÄ±m
 int RomanYazdir(int sayii) 
 { 
     int say[] = {1,4,5,9,10,40,50,90,100,400,500,900,1000}; 
@@ -99,7 +99,7 @@ int RomanYazdir(int sayii)
     } 
 } 
 
-// ÇALIŞAN KISIM
+// Ã‡ALIÅAN KISIM
 int main()
 {
 	int secilendeger=0;
@@ -144,3 +144,5 @@ int main()
 	return 0;
 }
 
+//https://www.geeksforgeeks.org/converting-decimal-number-lying-between-1-to-3999-to-roman-numerals/
+//https://www.geeksforgeeks.org/converting-roman-numerals-decimal-lying-1-3999/
